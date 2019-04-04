@@ -11,6 +11,7 @@
         <div>
             <h1>Newsletter Signup</h1>
         </div>
+        <asp:Label ID="lblEmail" runat="server" Text="Email Peter"></asp:Label>
     </form>
 </body>
 </html>
