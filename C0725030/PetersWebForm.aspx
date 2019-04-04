@@ -10,8 +10,12 @@
     <form id="form1" runat="server">
         <div>
             <h1>Newsletter Signup</h1>
+            <p>
+                <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+            </p>
         </div>
         <asp:Label ID="lblEmail" runat="server" Text="Email Peter"></asp:Label>
+&nbsp;
         <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
         <br />
         <br />
